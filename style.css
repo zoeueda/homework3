@@ -1,0 +1,84 @@
+/*Define your font styles here*/
+@font-face {
+    font-family: 'Gothic Punk';
+    src: url("font/Gothic Punk.ttf")
+}
+
+@font-face {
+	font-family: 'Gothic 45';
+    src: url("font/Gothic 45.ttf")
+}
+
+
+/*Style your page here*/
+
+h1{
+ font-family: 'Gothic Punk';
+ font-size: 60px;
+ letter-spacing: 3px;
+ text-align: center;
+ line-height:100px;
+  }
+
+ h2 {
+ font-family: 'Gothic 45';
+ font-size: 45px;
+ text-align: center;
+ text-decoration: underline;
+
+ }
+
+ body {
+ 	background-color: #702970;
+ }
+
+blockquote {
+	font-family: 'Gothic 45', sans-serif;
+	font-size: 30px;
+
+}
+
+ ul {
+ 	font-family: 'Teko', sans-serif;
+ font-size: 22px;
+ line-height:30px;
+ }
+
+ ol {
+ 	font-family: 'Teko', sans-serif;
+ font-size: 22px;
+ line-height:25px;
+ }
+
+.box1 {
+	position: relative;
+	width: 320px;
+	padding: 2pc;
+	border: 10px solid black;
+	margin: 10px;
+	left:90px; 
+	top:235px;
+	flex-direction: inline-block;
+}
+
+.box2 {
+	position: absolute;
+	width: 600px;
+	padding: 2pc;
+	border: 10px solid black;
+	margin: 10px;
+	top:500px; 
+	left: 590px;
+	flex-direction: inline-block;
+}
+
+.image {
+	position: absolute;
+	left: 500px;
+}
+
+.laststep {
+	text-decoration: underline;
+	font-size: 25px;
+}
+
